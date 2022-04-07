@@ -27,3 +27,69 @@ p {
 .instrucao p{
     color: #b3b4b6;
 }
+
+.itensLista {
+    padding: 0%;
+}
+
+.second-column{
+    margin-left: 20px;
+}
+
+li {
+    
+    list-style: none;    
+    padding: 10px 20px;
+    color: #52ffa8;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #52ffa8;
+    transition: 0.2s;
+
+}
+
+
+li:hover {
+    background: #52ffa8;
+    color: #414141;
+}
+
+input::placeholder{
+    color: #b3b4b6;
+    font-weight: bold;
+  }
+
+
+li>button {
+    font-weight: normal;
+    background: none;
+    color: #52ffa8;
+    border: none;
+    float: right;
+    background-color: #687180;
+    border-radius: 30px;
+    font-weight: 800;
+}
+
+input {
+    border-radius: 15px;
+    min-width: 300px;
+    padding: 10px;
+    border: none;
+    color: #dfffd9;    
+    background-color: #687180;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.done {
+    background: #ff442f !important;
+    text-decoration: line-through;
+    border-color: #ff442f;
+    color: #414141;
+}
+
+.delete {
+    display: none;
+}
