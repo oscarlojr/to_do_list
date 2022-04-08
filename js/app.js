@@ -27,5 +27,15 @@ function createListElement() {
 	dBtn.appendChild(document.createTextNode("X"));
 	li.appendChild(dBtn);
 	dBtn.addEventListener("click", deleteListItem);
+
+	function deleteListItem(){
+		li.classList.add("delete")
+	}
+}
+
+function addListAfterClick(){
+	if (inputLength() > 0) { 
+		createListElement();
+	}
 }
 
