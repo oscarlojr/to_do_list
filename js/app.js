@@ -16,5 +16,10 @@ function createListElement() {
 	li.appendChild(document.createTextNode(input.value)); 
 	ul.appendChild(li); 
 	input.value = ""; 
+
+    var dBtn = document.createElement("button");
+	dBtn.appendChild(document.createTextNode("X"));
+	li.appendChild(dBtn);
+	dBtn.addEventListener("click", deleteListItem);
 }
 
