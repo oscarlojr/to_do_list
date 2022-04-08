@@ -1,5 +1,6 @@
 # Projeto da mentoria 2ª Semana (LISTA DE TAREFAS)
-  Proposta de projeto para sanar problemas com organização de tarefas diárias. Atividade de Mentoria
+<p align="center"> Proposta de projeto para sanar problemas com organização de tarefas diárias. Atividade de Mentoria.
+</p>
 
  <p align="center"> 
  :fire: Proposta do projeto :nerd_face:
