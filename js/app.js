@@ -17,6 +17,12 @@ function createListElement() {
 	ul.appendChild(li); 
 	input.value = ""; 
 
+    function crossOut() {
+		li.classList.toggle("done");
+	}
+
+	li.addEventListener("click",crossOut);
+
     var dBtn = document.createElement("button");
 	dBtn.appendChild(document.createTextNode("X"));
 	li.appendChild(dBtn);
